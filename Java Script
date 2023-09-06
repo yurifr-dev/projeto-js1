@@ -1,0 +1,30 @@
+// Definindo as variáveis
+var a = 10;
+var b = 5;
+var c = 1;
+var d;
+
+// Realizando as operações e imprimindo os valores
+c = b--;
+console.log("Valor de c após c = b--:", c);
+
+b = a++;
+console.log("Valor de b após b = a++:", b);
+
+a = 5 + "1";
+console.log("Valor de a após a = 5 + '1':", a);
+
+d = "1" + "1";
+console.log("Valor de d após d = '1' + '1':", d);
+
+// Adicionando informações
+var autor = "Nome Completo do Autor";
+var palavraChave = "JavaScript";
+var descricao = "Atividades sobre JavaScript";
+var tituloPagina = "JavaScript";
+
+// Imprimindo as informações adicionadas
+console.log("Autor:", autor);
+console.log("Palavra-chave:", palavraChave);
+console.log("Descrição:", descricao);
+console.log("Título da Página:", tituloPagina);
